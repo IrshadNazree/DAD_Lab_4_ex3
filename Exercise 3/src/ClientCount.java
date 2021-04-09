@@ -22,7 +22,7 @@ public class ClientCount {
 			BufferedReader bf = new BufferedReader(new InputStreamReader(sc.getInputStream()));
 			
 			int wordCount = Integer.parseInt(bf.readLine());
-			System.out.println(wordCount);
+			System.out.println("The word " + wordEntered + " is " + wordCount + " letters long");
 			
 			bf.close();
 			pw.close();
